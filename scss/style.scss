@@ -1,0 +1,40 @@
+@import "variable";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.b-nav {
+	background-color: $primary-color !important;
+}
+
+.b-primary {
+	background-color: lighten($primary-color, $amount: 2) !important;
+}
+.b-secondary {
+	background-color: $white;
+}
+
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	/* background-image: url("../img/masthead01.svg");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat; */
+}
+
+.masthead-bg {
+	background-image: url("../img/masthead01.svg");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.section {
+	min-height: 500px;
+}
