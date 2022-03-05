@@ -3,6 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	color: black;
 }
 
 body {
@@ -11,6 +12,10 @@ body {
 // Text Properties
 h1 {
 	font-size: 3em;
+}
+
+p {
+	font-size: 1.2em;
 }
 .text-border {
 	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
@@ -158,6 +163,16 @@ ul {
 .scale:hover {
 	transform: scale(1.4);
 	z-index: 1;
+}
+
+//buttons
+.btn:hover {
+	transform: scale(1.05);
+	transition: 0.4s;
+}
+.btn:focus {
+	outline: none !important;
+	box-shadow: none;
 }
 
 @media screen and (max-width: 767px) {
